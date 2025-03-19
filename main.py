@@ -30,8 +30,8 @@ class Object():
     def draw_object(self):
         pygame.draw.circle(SCREEN, self.colour, (self.x, self.y), 10)
         
-a_object = Object(700, 500, 5, 0, 0, 0, RED, 500000000000000)
-b_object = Object(200, 200, 10, 0, 0, 0, GREEN, 50)
+a_object = Object(700, 500, 0, 0, 0, 0, RED, 1000000000000)
+b_object = Object(700, 600, -3, 0, 0, 0, GREEN, 1)
 
 
 
